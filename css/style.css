@@ -1,0 +1,223 @@
+body
+{
+	padding:0px;
+	margin:0px;
+	background-image:url("../images/back4.jpg") ;
+}
+
+#block{
+height:120px;
+background-color:#0099FF;
+border:2px solid #8c8b8b;
+}
+#img{
+	margin-left:230px;
+	margin-right:250px;
+	
+}
+p{
+	font-size:25px;
+	color:#404040;
+	font-family:serif;	
+}
+#menuu{
+	width:800px;
+	margin:5px;
+	text-align: bottom;	
+}
+#likh{
+	position:absolute;    /*this is for relative position otherwse kuch changes krne pe dono neeche ja rhe jabki ek k likhne  wale side k jana bantaa tha*/
+	margin-top:70px;
+	margin-left:230px;
+	margin-right:80px;
+	margin-bottom:90px;	
+}
+#po{
+	margin-top:120px;
+	margin-left:10px;
+	width:300px;
+	margin-bottom:90px;
+}
+.inputFields{
+	width:210px;
+	height:20px;
+	border:1px solid #999;
+	outline:none;
+	border-radius:5px;
+}
+.thebuttons{
+	width:120px;
+	height:30px;
+	background-color:#33adff;
+	border:2px solid #8c8b8b;
+	font-weight:bold;
+	font-family:tahoma;
+	color:#FFF;
+	border-radius:4px;
+}
+#menuu a{
+	
+	text-decoration:none;
+	display:inline-block;
+	color:#666;
+	padding:14px;
+	background-color:white;
+}
+#about{
+	margin-top:50px;
+	margin-left:180px;
+	margin-right:60px;	
+}
+#come1{
+	width:600px;
+	height:400px;
+	margin-top:0px;
+	border: 0px;
+}
+#come2{
+	width:600px;
+	height:400px;
+	margin-top:10px;
+	border: 0px;
+}
+
+#form1{
+	border-radius: 2%;
+	padding:15px;
+	background-color:#aaaaaa;
+	width:500px;
+	margin-top:50px;
+	margin-left:50px;
+	margin-right:100px;
+	font-family:tahoma;
+	-webkit-border-radius: 2%;
+	-moz-border-radius: 2%;
+	-ms-border-radius: 2%;
+	-o-border-radius: 2%;
+}
+
+#form2{
+	padding:15px;
+	background-color:#aaaaaa;
+	width:500px;
+	margin-top:10px;
+	margin-left:450px;
+	margin-right:100px;
+	font-family:tahoma;
+	border-radius:2%;
+	-webkit-border-radius:2%;
+	-moz-border-radius:2%;
+	-ms-border-radius:2%;
+	-o-border-radius:2%;
+}
+#menu{
+	
+	position:absolute;
+	margin-left:1200px;
+}
+span{
+	font-family:impact;
+	font-size:25px;
+	color:navy;	
+}
+#last{
+	margin-top:40px;
+	margin-left:0px;	
+}
+span a{
+	font-family:times;
+	font-size:25px;
+	color:navy;
+}
+#image{	
+	margin-left:230px;
+	margin-right:550px;
+	height:160px;
+	width:900px;
+	text-align: center;
+}
+#donate{
+	margin-left:230px;
+	margin-top:97px;	
+	width:900px;
+}
+#menu a{
+	display:inline-block;
+    padding:6px;
+	color:#9900FF;
+	font-family:cursive;
+    font-size:16;
+	background-color:#F8F8F8;
+	border:2px solid #8c8b8b;	
+}	
+#set{
+	margin-top:90px;
+	margin-bottom:50px;
+	font-family:verdana;		
+}
+pre{
+	font-family:arial;
+	font-size:20px;
+	padding-top:10px;
+	color:navy;	
+}
+.slideshow_container{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h3{
+	margin-left:25px;
+	padding-left:100px;
+	padding-top:10px;
+	font-family:arial;
+	font-size:30px;
+	color:navy;
+	 text-decoration: underline;
+}
+hr { 
+border-style:solid;
+    border-width: 3px;
+border-top: 1px solid #8c8b8b;
+}
+#image2{
+	background-color: rgba(88, 0, 0, 0.986);
+	margin-left:250px;
+	height:500px;
+	width:900px;
+	padding-top: 20px;
+	border-style: double;
+	border-color: goldenrod;
+	border-width: 7px;
+	border-radius: 4%;
+	text-align: center;
+	margin-right:100px;
+	margin-top:10px;
+	font-size:xx-large;
+	font-weight: bolder;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: oblique;
+	color: goldenrod;	
+}
+.hyper
+		{
+			color:white; text-decoration: none;font-size:18px;
+		}
+		.hyper:hover
+ 		{
+ 			color:#ffb849;
+ 		}
+		 .menu_bg
+		 {
+			 line-height:50px; text-indent:18px;color:white; font-size:14px;font-family:calibri;margin:5px;
+			 border-radius: 5px;background:#DC0000;font-weight:bold;float:left;width:150px;height:50px;margin-right:15px;
+			  margin-left:10px;display: flex;transition-duration:2s;
+		 }
+ 		.menu_bg:hover
+ 		{
+ 			background:#51504f;
+ 		}
+    .clear{
+    	clear: both;
+    }
+		th,td{padding:5px; font-family: calibri; text-align: left;}
+		.footer{background:#000; color:white; position:fixed; bottom:0; width: 100%; height:40px; text-align: center; line-height: 40px; font-size: 14px; font-family: calibri;z-index: 999;}
